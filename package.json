@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "apphosting:build": "FRAMEWORK_VERSION=19.0.0 apphosting-adapter-angular-build",
+    "build": "ng build",
+    "apphosting:build": "FRAMEWORK_VERSION=21.0.0 apphosting-adapter-angular-build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
